@@ -1,0 +1,9 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Sim.Device,Sim.Pins
+A1,1,RaspberryPi_Pico_W,RaspberryPi_Pico_W_SMD_HandSolder,,,,smt,"Versatile and inexpensive wireless microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash, Infineon CYW43439 2.4GHz 802.11n wireless LAN; also supports Raspberry Pi Pico 2 W",,
+"D1, D10, D11, D12, D13, D14, D17, D18, D19, D2, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D3, D30, D33, D34, D35, D36, D37, D38, D39, D4, D40, D41, D42, D43, D44, D45, D46, D49, D5, D50, D51, D52, D53, D54, D55, D56, D57, D58, D59, D6, D60, D61, D62, D65, D66, D67, D68, D69, D7, D70, D71, D72, D73, D74, D75, D76, D77, D78, D79, D8, D80, D81, D82, D83, D84, D85, D86, D87, D9",79,D,D_SOD-123,,,,smt,Diode,D,1=K 2=A
+"MX1, MX10, MX11, MX12, MX13, MX14, MX17, MX18, MX19, MX2, MX20, MX21, MX22, MX23, MX24, MX25, MX26, MX27, MX28, MX29, MX3, MX30, MX33, MX34, MX35, MX36, MX37, MX38, MX39, MX4, MX40, MX41, MX42, MX43, MX44, MX45, MX46, MX49, MX5, MX50, MX51, MX52, MX53, MX54, MX55, MX56, MX57, MX58, MX59, MX6, MX60, MX61, MX62, MX65, MX66, MX67, MX68, MX69, MX7, MX70, MX71, MX72, MX73, MX74, MX75, MX76, MX77, MX78, MX79, MX8, MX80, MX81, MX82, MX83, MX84, MX85, MX86, MX87, MX9",79,MX_SW_HS,SW_Cherry_MX_PCB_1.00u,,,,tht,"Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches",,
+S1,1,MX_stab,Stabilizer_Cherry_MX_6.25u,,,,tht,Cherry MX-style stabilizer,,
+"S2, S3, S4",3,MX_stab,Stabilizer_Cherry_MX_2.00u,,,,tht,Cherry MX-style stabilizer,,
+SW1,1,RotaryEncoder_Switch_MP,ROT_Alps_EC11E-Switch,,,,tht,"Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin",,
+SW2,1,SW_Push,SW_PUSH_6mm,,,,tht,"Push button switch, generic, two pins",,
+U2,1,ER_OLEDM0.91_1x-I2C,ER_OLEDM0.91_1x-I2C,,,,tht,"SSD1306 OLED module, 0.91 inch, 128x32, I2C",,
