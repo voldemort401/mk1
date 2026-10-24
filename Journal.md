@@ -3,7 +3,7 @@ title: "mk1"
 github: "https://github.com/voldemort401/mk1"
 description: "its basically a cool mechanical keyboard that can act as a mouse!"
 created_at: "2026-10-13"
-total_time: "2h"
+total_time: "idk ill make an estimate later "
 ---
 
 ## October 13th, 2026: learnt about how a keyboard works and decided the layout 
@@ -20,6 +20,7 @@ I looked in google and its apparently called a 75% keyboard
 ![](assets/layout.png)
 
 Well lets call it a day for today
+**Total time spent: 1.5h**
 
 -- Day 2 [2026/10/14]
 
