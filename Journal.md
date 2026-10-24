@@ -1,4 +1,13 @@
--- Day 1  [2026/10/13]
+---
+title: "mk1"
+github: "https://github.com/voldemort401/mk1"
+description: "its basically a cool mechanical keyboard that can act as a mouse!"
+created_at: "2026-10-13"
+total_time: "2h"
+---
+
+## October 13th, 2026: learnt about how a keyboard works and decided the layout 
+
 My exams are going on and i decided to design a keyboard from scratch *🙂*. 
 Anyways, since i decided to design a keyboard with 0 experience on designing anything this should be fun 
 So first i learnt about kicad a software suite which is the one ill be using to design the keyboard.
