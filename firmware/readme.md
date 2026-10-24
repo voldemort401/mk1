@@ -8,13 +8,13 @@ before i go into the keybindings lets first see the keyboard layout
 Ok now lets move on to the bindings 
 
 ```
-Fn + q + b : puts the keyboard into bootloader mode 
+Fn + 1 + b : puts the keyboard into bootloader mode 
 
-Fn + q + c : reinitializes the keyboard's EEPROM
+Fn + 1 + c : reinitializes the keyboard's EEPROM
 
-Fn + q + a : toggles autocorrect
+Fn + 1 + a : toggles autocorrect
 
-Fn + q + super: toggles super key
+Fn + 1 + super: toggles super key
 ```
 
 personally my favorite mode the mouse mode 
