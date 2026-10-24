@@ -6,7 +6,7 @@ created_at: "2026-10-13"
 total_time: "idk ill make an estimate later "
 ---
 
-## October 13th, 2026: learnt about how a keyboard works and decided the layout 
+## October 13th, 2026:   Learnt about how a keyboard works and decided the layout 
 
 My exams are going on and i decided to design a keyboard from scratch *🙂*. 
 Anyways, since i decided to design a keyboard with 0 experience on designing anything this should be fun 
@@ -22,7 +22,7 @@ I looked in google and its apparently called a 75% keyboard
 Well lets call it a day for today
 **Total time spent: 1.5h**
 
--- Day 2 [2026/10/14]
+## October 14th, 2026:   Deciding the microcontroller and the features i would like in the keyboard  
 
 I am failing my physics and its chemistry tommorow and i am failing that too! *🙂*
 So before deciding on anything lets decide on the microcontroller. Since i want the keyboard to be a hybrid keyboard meaning it supports both bluetooth and usb
@@ -35,12 +35,21 @@ the thing i needed i downloaded it and when i tried to import the symbol into ki
 libraries so i spent like 30 mins trying to import it but i couldnt do it. Eventually i decided to look at the split keyboard guide hoping ill find something useful there 
 and i did! I found this [repo](https://github.com/ebastler/marbastlib/) and it had the nice!nano symbol and footprint. 
 
+Future me here forgot to add photos soo heres the photos of the microcontroller i decided to use foreshadowing i will remove this and switch to a pi zero 
+
+<img width="1445" height="1445" alt="image" src="https://github.com/user-attachments/assets/2c07eda7-4b5b-4ba7-af86-59d89321c8a2" />
 After that it was pretty easy to setup i decided to call it a day cuz i need to study for chemistry and all. 
 
 Now i really want a OLED display for this keyboard too so i decided to just use the built in oled display symbol in kicad 
 
--- Day 3 [2026/10/16]
-Good news my exams are finished less gooo anyways so i did nothing on the 15th. 
+
+**Total time spent: 2.5h**
+
+## October 15th, 2026:   Literally did nothing
+Good news my exams are finished less gooo anyways so i did nothing on the 15th.
+
+## October 16th, 2026: Created the schematic 
+
 So today i decided to finally start building the schematic took me some time but i managed to do it currently the keyboard has a 6x10 matrix
 with an oled display. 
 here's the final result in all its glory
@@ -50,7 +59,10 @@ here's the final result in all its glory
 For the footprints of the components i used the default thing they give for the nice!nanov2 in marbastlib and for the keyboards 
 i used the SW_Cherry_MX_PCB_1.00u from the Keyswitch library finally for the diodes i used the SOD-123. 
 
--- Day 4 [2026/10/17]
+**Total time spent: 1.5h** 
+
+## October 17th, 2026: Created the pcb 
+
 Today decided to wire up the pcb and everything and god i hate placing diodes  
 probably took me an hour to just place the diodes in the correct position.
 
@@ -77,7 +89,10 @@ So its been like a while now i finally finished my redesigning the pcb and the s
 the ratnest lines are telling me to connect all the ground of the pi pico together i wonder why it is telling me to do that
 I'll look into it later its like 23:00 right now and i am feeling sleepy asf i think this will be it for today
 
--- Day 5 [2026/10/18]
+**Total time spent: 6h**
+
+## October 18th, 2026: Addead a button to short the Run pin low and read up on some things
+
 I still dont fully get it but my best guess right now based on what ive read is that the GND in the electrical diagrams 
 most of the time represents a 0 volt a sort of reference point from which all other positive or negative voltages in the circuit are measured
 
@@ -87,10 +102,15 @@ voltage to become unstable so using a copper fill is best practice for builds.
 
 Also i added like a button to short the RUN pin low at the side it bascially resets the pico
 
--- Day 6 [2026/10/19]
-its currently the holiday season in my country im was out with my family so i did basically nothing today 
+Future me here again! uh so for this entry i basically took no screenshots this day. So, to imagine what the pcb looked like at this stage just take the final pcb 
+this pic
+![](assets/final_finalpcb.png) 
 
--- Day 7 [2026/10/20]
+remove all the silkscreen and remove the stabilizers and remove the rotary dial and that pretty much it
+
+**Time spent: 1.5h**
+
+## October 20th, 2026: Decided on which software to use for 3d modeling and watched a tutorial 
 ok so i finished the schematic and the pcb well technically not i still have to connect the USB C connections and what not
 but uk ill do that later its just a few connections how hard could it be right?
 
@@ -108,7 +128,15 @@ which people were praising too so i decided to go with FreeCAD.
 
 Btw [this](https://www.youtube.com/watch?v=KmtqNaGPiiQ) starting tutorial for FreeCAD is awesome for starting out it really helped me
 
--- Day 8 [2026/10/21]
+Future me strikes again as stated in the guidelines i will not add time spent watching the tutorial in the time spent count but man did this tutorial 
+helped me out a lot there are also other resources which i think will help someone trying to make their own 3d models 
+- [How to Start Designing Your Enclosure For PCB](https://www.youtube.com/watch?v=vzVDWfUO388) 
+- [Learning FreeCad with These Basic Steps](https://www.youtube.com/watch?v=rglvJH9z5ng)
+- [ FreeCAD Tool Makes Editing STEP files EASY | Defeaturing & How To Use It ](https://www.youtube.com/watch?v=mBHOVaGOa6I)
+
+**Time spent: 1h**
+
+## October 21th, 2026: Completing the 3d model
 I realized that i am a caveman atp like making this 3D model should not be this hard i am here sitting on my ass since probably for like 5 hrs now and i still havent finished this 
 model.
 
@@ -122,7 +150,9 @@ important thing it taught me is that making 3D models is not my thing my brain i
 ![](assets/incomp_model_left.png)
 ![](assets/incomp_model_right.png)
 
--- Day 9 [2026/10/22]
+**Time spent: 6 hours**
+
+## October 22nd, 2026: Finished the cover plate and also decided to use heat inserts 
 Not a lot today did manage to finish the cover plate nothing else much 
 
 ![](assets/finished_cover_plate.png)
@@ -136,12 +166,14 @@ so i am looking into the heat inserts
 
 just watched a [video](https://www.youtube.com/watch?v=M4QZzg8q7-U) they seem pretty handy i can probably just use a soldering iron instead of that 
 heat inserter tool thingy and they seem easy enough to install so i think ill be going with the heated inserts
-the holes used in the case and the pcb are M3 3.2mm holes so i dont think ill need to make any changes to the case i dont need to make changes to the cover plate 
+the holes used in the case and the pcb are M3 3.2mm holes ~~so i dont think ill need to make any changes to the case~~ i dont need to make changes to the cover plate 
 holes but the holes in the base need to be increased to around 4.7 mm to fit the inserts
 
 ok so now theres some final touches i need to do in the model like adding stabilizers and the keycaps ill do that later tmrw
 
--- Day 10[2026/10/23]
+**Time spent: 3 hours**
+
+## October 23rd, 2026: Made holes for the stabilizers and added graphics to the PCB!
 
 I am hoping that today i'll finish the 3d model and the firmware 
 but before that there is one more thing thats been bugging me in the pcb 
@@ -191,7 +223,10 @@ heres the pcb with the stabilizers
 
 ok lets move on to the firmware now which should be the last part of this project before it is completed!
 
--- Day 11 [2026/10/24]
+**Time spent: 5 hours**
+
+## October 24th, 2026: Finished the cover plate and also decided to use heat inserts 
+
 ok so last few touches before this proj is completed also it turns out i put an extra key in the 4th row so its a extra programmable key now ig although 
 i wonder if that extra key is gonna affect the way i reach to the enter oh well i can program both to be enter by default my lazy ass doesnot wanna fix it 
 
@@ -205,13 +240,16 @@ ok interesting tidbit as i was going through the docs i found this
 ![](assets/mouse.png)
 
 turns out i can actually emulate a mouse using my keyboard soooo you know the extra key ill try to make it so that on press it works as a enter 
-key but on holding it will enable the mouse mode thing and you can browse using wasd thatll be neat lets see how i can actuall make that tho 
+key but on holding it will enable the mouse mode thing and you can browse using wasd thatll be neat lets see how i can actually make that tho 
 
 also i forgot to mention it but the layout is bascially copied from topre-realforce keyboard i liked the layout so i used it 
 ![](assets/insp.png)
 
+Future me again i feel like this part needs some clarification and even if it doesnot idc cuz i just wanna talk about how i implemented the mouse behavior so the way i did it 
+was you can add layers in the layout in qmk so i created another layout where the keys i  wanted correspond to the mouse buttons and when i hold that extra key it switches 
+to that mouse layer pretty  neat isnt it.
 
-okkkk i managed to do it i think heres the layout  
+okkkk i managed to do it i think heres the layout
 ![](assets/code.png)
 
 i think ive finished it now!! 
@@ -219,3 +257,5 @@ now before i go and make a BOM ill cleanup this folder because its a mess right 
 ![](assets/mess.png)
 
 after that ill finally upload this in github and create the project in fabricate after that finally ill get to the BOM
+
+**Time spent: 4 hours**
