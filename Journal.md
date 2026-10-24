@@ -225,7 +225,7 @@ ok lets move on to the firmware now which should be the last part of this projec
 
 **Time spent: 5 hours**
 
-## October 24th, 2026: Finished the cover plate and also decided to use heat inserts 
+## October 24th, 2026: Finished the firmware
 
 ok so last few touches before this proj is completed also it turns out i put an extra key in the 4th row so its a extra programmable key now ig although 
 i wonder if that extra key is gonna affect the way i reach to the enter oh well i can program both to be enter by default my lazy ass doesnot wanna fix it 
