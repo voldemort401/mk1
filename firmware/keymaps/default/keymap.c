@@ -2,19 +2,32 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include QMK_KEYBOARD_H
-
+#ifdef OLED_ENABLE
+bool oled_task_user(void) {
+    // Host Keyboard Layer Status
+    switch (get_highest_layer(layer_state)) {
+        case 0:
+            oled_write_P(PSTR("Default\n"), false);
+            break;
+        case 1:
+            oled_write_P(PSTR("Fn\n"), false);
+            break;
+        case 2:
+            oled_write_P(PSTR("Magic\n"), false);
+            break;
+        case 3:
+            oled_write_P(PSTR("MouseMode\n", false);
+            breakl
+        default:
+            // Or use the write_ln shortcut over adding '\n' to the end of your string
+            oled_write_ln_P(PSTR("Undefined"), false);
+            break;
+    }
+    return false;
+}
+#endif
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    /*
-     * ┌───┬───┬───┬───┐
-     * │ 7 │ 8 │ 9 │ / │
-     * ├───┼───┼───┼───┤
-     * │ 4 │ 5 │ 6 │ * │
-     * ├───┼───┼───┼───┤
-     * │ 1 │ 2 │ 3 │ - │
-     * ├───┼───┼───┼───┤
-     * │ 0 │ . │Ent│ + │
-     * └───┴───┴───┴───┘
-     */
+    
     /*┌──┐ ┌──┐┌──┐┌──┐┌──┐ ┌──┐┌──┐┌──┐┌──┐┌──┐┌──┐┌──┐┌──┐┌──┐
       │es│ │f1││f2││f3││f4│ │f5││f6││f7││f8││f9││f1││f1││f1││de│
       └──┘ └──┘└──┘└──┘└──┘ └──┘└──┘└──┘└──┘└──┘└──┘└──┘└──┘└──┘
