@@ -17,7 +17,7 @@ bool oled_task_user(void) {
             break;
         case 3:
             oled_write_P(PSTR("MouseMode\n", false);
-            breakl
+            break;
         default:
             // Or use the write_ln shortcut over adding '\n' to the end of your string
             oled_write_ln_P(PSTR("Undefined"), false);
