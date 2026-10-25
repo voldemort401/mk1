@@ -31,7 +31,3 @@ i thank geg-tech for making an awesome project and giving me the inspiration to 
 
 ## Usage of AI in this project 
 During this project, I used AI to help with debugging KiCad DRC errors and i also used it to learn how to create those cutouts precisely but the designs were done by hand by me with no use from ai 
-
-## BOM 
-WIP
-
